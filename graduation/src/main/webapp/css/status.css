@@ -1,0 +1,75 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: "微软雅黑";
+    opacity: 0.9;
+}
+.content{
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+}
+.title{
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #ff3a1e;
+}
+#div1{
+    width:100%;
+    height:100px;
+    overflow: hidden;
+}
+img{
+    float:left;
+    height:100%;
+    width:100px;
+    margin-left: 20px;
+}
+ul li{
+    line-height: 38px;
+    vertical-align: middle;
+    list-style: none;
+    width: 100%;
+    height: 40px;
+    border: 0.3px solid rgb(253, 255, 255);
+    box-sizing: border-box;
+    user-select: none;
+    vertical-align: middle;
+    background-color: #fff9fb;
+}
+.status{
+    width: 20%;
+    float: left;
+}
+.second{
+    float: right;
+    width: 80px;
+    height: 100%;
+    border: none;
+    color: #ff523a;
+    background-color: #ffffed;
+}
+.select{
+    float: right;
+    width: 300px;
+    height: 30px;
+    margin-right: 20px;
+    display: inline-block;
+}
+.select select{
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    background-color: #fff79c;
+    text-align: center;
+}
+.sure{
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+    background-color: #ff523a;
+}

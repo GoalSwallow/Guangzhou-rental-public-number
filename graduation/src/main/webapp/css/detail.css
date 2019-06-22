@@ -1,0 +1,65 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: "微软雅黑";
+    opacity: 0.9;
+}
+.content{
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+}
+.title{
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #ff3a1e;
+}
+/*img{
+    float:left;
+    height:100px;
+    width:150px;
+}
+#div1{
+    margin-left: 40px;
+    width:450px;
+    height:100px;
+    overflow: hidden;
+}
+#div2,#div3{
+    float:left;
+}
+#div4 {
+    width: 500%; !*这个属性很重要 让容器有足够的宽度实现滚动*!
+    float: left;
+}*/
+#div1{
+    width:100%;
+    height:100px;
+    overflow: hidden;
+}
+img{
+    float:left;
+    height:100%;
+    width:100px;
+    margin-left: 20px;
+}
+ul li{
+    line-height: 38px;
+    vertical-align: middle;
+    list-style: none;
+    width: 100%;
+    height: 40px;
+    border: 0.3px solid rgb(253, 255, 255);
+    box-sizing: border-box;
+    user-select: none;
+    vertical-align: middle;
+    background-color: #fff9fb;
+}
+.show{
+    display: none;
+    text-decoration: none;
+}

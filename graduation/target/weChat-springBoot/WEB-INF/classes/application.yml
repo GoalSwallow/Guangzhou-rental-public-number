@@ -1,0 +1,20 @@
+server:
+  port: 8080
+
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost/work?characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: hjy
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true

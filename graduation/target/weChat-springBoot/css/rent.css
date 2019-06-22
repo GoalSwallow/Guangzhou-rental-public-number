@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    font-family: "微软雅黑";
+    opacity: 0.9;
+}
+.interface{
+    width: 60%;
+    height: 100%;
+    margin-left: 20%;
+}
+.top{
+    width: 100%;
+    height: 60px;
+    font-size: 30px;
+    color: #ff4b2d;
+    text-align: center;
+    margin-top: 20px;
+}
+.select{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+}
+.select select{
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    margin-right: 20px;
+    border: 0px;
+    background-color: #fbfff8;
+}
+.search{
+    margin-left: 70px;
+}
+.resource{
+    width: 100%;
+}
+ul li{
+    list-style: none;
+    width: 100%;
+    height: 80px;
+    border: 0.3px solid rgb(187, 255, 185);
+    box-sizing: border-box;
+    user-select: none;
+    vertical-align: middle;
+    background-color: #fff9fb;
+
+}
+.img{
+    width: 18%;
+    height: 80%;
+    float: left;
+    margin-left: 10px;
+}
+.img img{
+    width: 100%;
+    height: 80%;
+    margin-top: 10%;
+}
+.house{
+    width: 75%;
+    height: 80%;
+    display: inline-block;
+    float: right;
+    vertical-align: middle;
+}
+.house .title{
+    width: 100%;
+    height: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.house .detail{
+    height: 20px;
+    width: 100%;
+}
+.detail .rentalMethod{
+    margin-left: 20px;
+}
+.detail .price{
+    margin-left: 67%;
+    font-weight: bold;
+    color: #ff3a1e;
+}
+.house .position{
+    width: 100%;
+    height: 20px;
+}
+.position .time{
+    margin-left: 60%;
+}
